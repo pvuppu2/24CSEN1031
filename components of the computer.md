@@ -1,5 +1,5 @@
-Input devices
+# _Input devices_
 1. Mouse 2. Keyboard 3. Touchpad 4. Pendrive
 
-Output devices
+# _Output devices_
 1. Moniters 2. Printers 3. Speakers 4. Projectors

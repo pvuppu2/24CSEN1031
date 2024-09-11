@@ -12,3 +12,7 @@ int main() {
   
     return 0;
 }
+
+/*
+smallest of the two numbers a and b is 5
+output*/

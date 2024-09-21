@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int a = 9;
+    int b = 5;
+    int c = 6;
+    printf ("\n value of a = %d and adress is %u", a,&a);
+    printf ("\n value of b = %d and adress is %u", b,&b);
+    printf ("\n value of c = %d and adress is %u", c,&c);
+    return 0;
+}
+
+
+/*value of a = 9 and adress is 2140712380
+ value of b = 5 and adress is 2140712376
+ value of c = 6 and adress is 2140712372*/

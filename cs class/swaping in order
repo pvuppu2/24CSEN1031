@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+int a = 4, b = 2, temporary;
+printf("\nbefore sorting: a = %d, b = %d", a,b);
+if ( a > b ) {
+    temporary = a;
+    a = b;
+    b = temporary;
+}
+printf("\n after sorting: a = %d , b = %d", a, b);
+    return 0;
+}
+
+
+
+/*
+before sorting: a = 4, b = 2
+ after sorting: a = 4 , b = 2
+ */

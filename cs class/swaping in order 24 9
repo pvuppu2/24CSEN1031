@@ -1,3 +1,4 @@
+1)
 #include <stdio.h>
 
 int main() {
@@ -21,6 +22,7 @@ before sorting: a = 4, b = 2
 
 
 
+2) 
 #include <stdio.h>
 
 int main() {
@@ -44,4 +46,35 @@ printf("\n after sorting: a = %d , b = %d, c = %d", a, b,c);
 /* 
 before sorting: a = 4, b = 2, c = 12
  after sorting: a = 2 , b = 4, c = 12
+*/
+
+3)
+#include <stdio.h>
+
+int main() {
+int a = 4, b = 2, c = 12, d = 6, temporary;
+printf("\nbefore sorting: a = %d, b = %d, c = %d, d = %d", a,b,c,d);
+
+if ( a > b) {
+    temporary = a; a = b; b = temporary;
+}
+if ( a > c ) {
+    temporary = a; a = c; c = temporary;
+}
+if ( a > d ) {
+    temporary = a; a = d; d = temporary;
+}
+if ( b > c ){
+    temporary = b; b = c; c = temporary;
+}
+if ( c > d ){
+    temporary = c; c = d; d = temporary;
+}
+printf("\n after sorting: a = %d , b = %d, c = %d, d = %d", a, b,c,d);
+    return 0;
+}
+
+/*
+before sorting: a = 4, b = 2, c = 12, d = 6
+ after sorting: a = 2 , b = 4, c = 6, d = 12
 */

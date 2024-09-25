@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+int main() {
+  // printing the array elements 
+int a[3]= {12, 7, 8};
+  printf("%d\n", a[0]);// here 0 = first index 
+  printf("%d\n", a[1]);// here 1 is the 2nd index
+  printf("%d\n", a[2]);//here the 2 is the 3rd index
+  printf("%d\n", a[3]);//here the 3 is the 4th index
+  printf("%d\n", a[4]);//here the 3 is the 4th index
+
+  return 0;
+}
+
+
+/*
+12
+7
+8
+4198832
+0
+*/

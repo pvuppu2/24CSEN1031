@@ -1,1 +1,133 @@
+1) // program to reverse a +ve integer number
 
+#include <stdio.h>
+
+int main() {
+   int a,b,sum=0;
+   printf("enter any number to be reversed: ");
+   scanf("%d",&a);
+   
+   
+   while(a>=1){
+       b=a%10;
+       a=a/10;
+       sum=sum*10+b;
+   }
+   
+   a=sum;
+   printf("\n\nafter reversing: %d",a);
+
+   
+   return 0;
+}
+
+
+2) // program to check whether a +ve integer is palindrome or  not
+
+#include <stdio.h>
+
+int main() {
+   int a,b,c,sum=0;
+   printf("Enter any number to check whether it is Palindrome Number or not: ");
+   scanf("%d",&c);
+   a=c;
+   
+   
+   while(a>=1){
+       b=a%10;
+       a=a/10;
+       sum=sum*10+b;
+   }
+   
+   
+   
+   if(sum==c){
+       printf("\nEntered number is A Palindrome Number");
+   }
+   else{
+       printf("\nEntered number is NOT a Palindrome Number");
+   }
+       
+   return 0;
+}
+
+
+
+3) // program to print digits in reverse order in a +ve integer number 
+
+#include <stdio.h>
+
+int main() {
+   int a,b,c,sum=0;
+   printf("enter any number to be reversed: ");
+   scanf("%d",&c);
+   a=c;
+   printf("\n\n");
+   printf("after reversing:\n ");
+   
+   while(a>=1){
+       b=a%10;
+       a=a/10;
+       printf("\n%d",b);
+   }
+  
+   return 0;
+}
+
+
+
+
+4) // program to check whether the entered number is armstrong or not
+
+#include <stdio.h>
+
+int main() {
+   int a,b,c,sum=0;
+   printf("Enter any number to check whether it is an Armstrong Number or not: ");
+   scanf("%d",&c);
+   a=c;
+   while(a>=1){
+       b=a%10;
+       a=a/10;
+       sum=sum+b*b*b;
+   }
+   
+   
+   if(sum==c){
+       printf("\n\nThe entered number IS an Armstrong Number");
+   }
+   else{
+       printf("\n\nthe entered number is NOT an Armstrong Number");
+   }
+   
+   
+   return 0;
+}
+
+
+
+5) //program to print the sum of digits in +ve integer number
+
+
+#include <stdio.h>
+
+int main() {
+   int a,b,c,sum=0;
+   printf("enter any number: ");
+   scanf("%d",&c);
+   a=c;
+   printf("\n\n");
+   printf(" the sum of the digits in the entered number is : ");
+   
+   while(a>=1){
+       b=a%10;
+       a=a/10;
+       
+       sum=sum+b;
+   }
+   printf("%d",sum);
+   
+   
+   
+   return 0;
+}

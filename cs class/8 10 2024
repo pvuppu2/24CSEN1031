@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+int i = 2,14,74,83,647;
+printf("value of i = %d\n", i);
+return 0;
+}

@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main(){
+    int u , a, t, v;
+    
+    printf("enter initial velocity = ");
+    scanf("%d", &u);
+    printf("enter acceleration = ");
+    scanf("%d", &a);
+    printf("enter time = ");
+    scanf("%d", &t);
+    
+    v = u + a*t;
+    printf("final velocity = %d\n", v);
+}
+
+#include<stdio.h>
+int main(){
+    int u , a, t, s;
+    
+    printf("enter initial velocity = ");
+    scanf("%d", &u);
+    printf("enter acceleration = ");
+    scanf("%d", &a);
+    printf("enter time = ");
+    scanf("%d", &t);
+    
+    s =(( u * t) + (0.5 * a * t* t));
+    printf("final velocity = %d\n", s);
+}

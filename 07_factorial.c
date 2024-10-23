@@ -13,7 +13,7 @@ int main() {
   }
   return 0;
 }
-
+// factorial number is equal to f(n)=n*f(n-1)
 /*OUTPUT
 Enter a non-negative number: -3
 Entered a negative number.  Factorial cannot be determined

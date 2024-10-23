@@ -60,7 +60,11 @@ NOT 9 = 0
 Bitwise Operataors
 9 & 5 = 1
 9 | 5 = 13
-Bitwise XOR 9 ^ 5 = 12
+Bitwise XOR 9 ^ 5 = 12 
+0 ^ 0 = 0
+1 ^ 1 = 0
+0 ^ 1 = 1
+1 ^ 0 = 1
 Left Shift 9 << 2 = 36
 Right Shift 9 >> 2 = 2
 

@@ -1,0 +1,22 @@
+1) 
+# include <stdio.h>
+
+int main() {
+    int i = 5;
+    printf("Value of i : %d and its address: %u", i, &i);
+    
+    int *ptr_i;
+    ptr_i = &i;
+    printf("\nValue of ptr_i : %u and value pointed by the pointer is : %d", ptr_i, *ptr_i); 
+
+i = i + 34;
+
+printf("\nupdated value of i: %d", *ptr_i);
+    return 0;
+}
+
+/* Value of i : 5 and its address: 1673813604
+Value of ptr_i : 1673813604 and value pointed by the pointer is : 5
+updated value of i: 39 */
+
+

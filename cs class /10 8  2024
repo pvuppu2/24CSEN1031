@@ -1,9 +1,0 @@
-#include<stdio.h>
-int main(){
-int i = 2147483647;
-/*i can only store this much value as int has only 4 bytes/32 bits i.e 2^31 - 1
-grater than this value if you enter then it will giv you negartive or garbage value
-the numbers work in a circle*/
-printf("value of i = %d\n", i);
-return 0;
-}

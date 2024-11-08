@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() {
+  int num = 10;
+  int *ptr = &num;
+  
+  printf("Address of num = %u\n", &num);
+  printf("value of pointer = %u\n", ptr);
+  printf("Address of pointer = %u\n", *(&ptr));
+  printf("value of num = %d\n", *ptr);
+  printf("value of num = %d\n", num);
+  printf("value of num = %d\n", *(&num)); // * is value at the address of num
+
+    return 0;
+}
+
+
+/* 
+
+Address of num = 1909182780
+value of pointer = 1909182780
+Address of pointer = 1909182780
+value of num = 10
+value of num = 10
+value of num = 10
+
+
+=== Code Execution Successful ===
+*/

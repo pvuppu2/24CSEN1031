@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main() {
+ int num = 10;
+ int *ptr1 = &num;
+ 
+ int **ptr2 = &ptr1;
+ printf("Address of num = %u\n", &ptr1);
+ printf("Address of ptr1 = %u\n", &ptr1);
+ printf("Address of ptr2  = %u\n", &ptr2);
+ printf("                 = %u\n", *ptr2);
+ printf("                 = %d\n", **ptr2);
+ printf("                 = %d\n", ***(&ptr2));
+
+
+  
+
+    return 0;
+}
+
+
+/*Address of num = 333192208
+Address of ptr1 = 333192208
+Address of ptr2  = 333192200
+                 = 333192220
+                 = 10
+                 = 10
+
+
+=== Code Execution Successful ===*/

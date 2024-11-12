@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+
+char firstname[] = "Pranav";
+char middlename[] = "Sai";
+char lastname[] = "V";
+char branch[10];
+
+printf("Length of the two strings %d\n", strlen(firstname));
+printf("combine two strings %s\n", strcat(firstname, middlename));
+strcpy(branch, "BioTech");
+printf("Branch is %s\n", branch);
+    return 0;
+}
+
+/*   
+Length of the two strings 6
+combine two strings PranavSai
+Branch is BioTech
+
+*/
